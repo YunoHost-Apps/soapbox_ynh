@@ -1,12 +1,18 @@
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
+### Important points to read before installing
 
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
+- [Pleroma (Yunohost ver.)](https://github.com/YunoHost-Apps/pleroma_ynh) must be installed locally before you install SoapboxFE
+- SoapboxFE must be installed under a Pleroma domain (i.e soapboxfe.your-pleroma-instance-domain.net)
+- AdminFE under SoapboxFE returns 404
+
+Using screen in case of disconnects
+
+``` 
+sudo apt-get install screen
+screen
+sudo yunohost app install https://github.com/YunoHost-Apps/soapbox_ynh.git
+```
+Recover after disconnect:
+```
+screen -d
+screen -r
+```
