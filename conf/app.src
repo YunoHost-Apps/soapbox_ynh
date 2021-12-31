@@ -1,7 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://gitlab.com/soapbox-pub/soapbox-fe/-/jobs/1396593082/artifacts/download
+SOURCE_SUM=7349194c32136d0876987eef1e8d235b87a17e58b68c769e3f18ac97be4564c3
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_FORMAT=zip
 SOURCE_EXTRACT=true
