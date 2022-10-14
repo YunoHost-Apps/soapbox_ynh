@@ -20,7 +20,6 @@ SoapboxFE is an alternative frontend for Pleroma.
 
 **Shipped version:** 1.3.0~ynh1
 
-
 ## Screenshots
 
 ![Screenshot of SoapboxFE](./doc/screenshots/screenshot.jpg)
