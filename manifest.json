@@ -39,8 +39,8 @@
                 "name": "backend",
                 "type": "domain",
                 "ask": {
-                    "en": "The root domain of pleroma instance installed",
-                    "fr": "The root domain of pleroma instance installed"
+                    "en": "The root domain of Pleroma instance installed",
+                    "fr": "Le domaine racine de l'instance Pleroma installé"
                 }
             },
             {
