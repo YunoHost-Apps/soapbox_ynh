@@ -76,8 +76,6 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-ynh_replace_string --match_string="example.com" --replace_string="$backend" --target_file="/etc/nginx/conf.d/$domain.d/$app.conf"
-
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
