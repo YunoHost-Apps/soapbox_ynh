@@ -3,8 +3,8 @@
     "id": "soapbox",
     "packaging_format": 1,
     "description": {
-        "en": "Alternative frontend for pleroma",
-        "fr": "Alternative frontend for pleroma"
+        "en": "Alternative frontend for Pleroma",
+        "fr": "Interface alternative pour Pleroma"
     },
     "version": "3.0.0~ynh1",
     "url": "https://soapbox.pub/",
@@ -39,7 +39,7 @@
                 "name": "backend",
                 "type": "domain",
                 "ask": {
-                    "en": "The root domain of pleroma instance installed",
+                    "en": "The root domain of Pleroma instance installed",
                     "fr": "The root domain of pleroma instance installed"
                 }
             },
