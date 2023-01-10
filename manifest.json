@@ -29,11 +29,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "ask": {
-                    "en": "Subdomain for SoapboxFE installation, i.e: soapbox.your-pleroma.instance.com",
-                    "fr": "Sous-domaine pour l'installation de SoapboxFE, par exemple : soapbox.your-pleroma.instance.com"
-                }
+                "type": "domain"
             },
             {
                 "name": "backend",
