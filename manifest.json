@@ -6,7 +6,7 @@
         "en": "Alternative frontend for pleroma",
         "fr": "Alternative frontend for pleroma"
     },
-    "version": "1.3.0~ynh1",
+    "version": "3.0.0~ynh1",
     "url": "https://soapbox.pub/",
     "upstream": {
         "license": "AGPL-3.0",
