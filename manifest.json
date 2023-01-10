@@ -32,7 +32,7 @@
                 "type": "domain",
                 "ask": {
                     "en": "Subdomain for SoapboxFE installation, i.e: soapbox.your-pleroma.instance.com",
-                    "fr": "Subdomain for SoapboxFE installation, i.e: soapbox.your-pleroma.instance.com"
+                    "fr": "Sous-domaine pour l'installation de SoapboxFE, par exemple : soapbox.your-pleroma.instance.com"
                 }
             },
             {
@@ -40,7 +40,7 @@
                 "type": "domain",
                 "ask": {
                     "en": "The root domain of Pleroma instance installed",
-                    "fr": "The root domain of pleroma instance installed"
+                    "fr": "Le domaine racine de l'instance pleroma installée"
                 }
             },
             {
