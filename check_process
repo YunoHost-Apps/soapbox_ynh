@@ -1,9 +1,9 @@
 ;; Test complet
 	; Manifest
-		domain="sub.domain.tld"	(DOMAIN)
-		path="/"	(PATH)
+		domain="sub.domain.tld"
+		path="/"
 		backend="domain.tld"
-		is_public=1 (true|false)
+		is_public=1
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=0
