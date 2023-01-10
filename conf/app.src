@@ -1,5 +1,5 @@
-SOURCE_URL=https://gitlab.com/soapbox-pub/soapbox/-/archive/v3.0.0/soapbox-v3.0.0.zip
-SOURCE_SUM=b53d80f9c6f1ff865aecbd2df8e4e007f3bdb4dad70c81c72294d83645631fc9
+SOURCE_URL=https://gitlab.com/soapbox-pub/soapbox/-/jobs/artifacts/v3.0.0/download?job=build-production
+SOURCE_SUM=ea62f2f9c27b391d156b1fe7c4e4384ac1b45c7f01af6b0e5337b9a8f18d8ac2
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_EXTRACT=true
