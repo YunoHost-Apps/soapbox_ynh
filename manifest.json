@@ -1,12 +1,12 @@
 {
-    "name": "SoapboxFE",
+    "name": "Soapbox",
     "id": "soapbox",
     "packaging_format": 1,
     "description": {
-        "en": "Alternative frontend for pleroma",
-        "fr": "Alternative frontend for pleroma"
+        "en": "Alternative frontend for Pleroma",
+        "fr": "Interface alternative pour Pleroma"
     },
-    "version": "1.3.0~ynh1",
+    "version": "3.0.0~ynh1",
     "url": "https://soapbox.pub/",
     "upstream": {
         "license": "AGPL-3.0",
@@ -19,7 +19,7 @@
         "name": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": false,
     "services": [
@@ -29,18 +29,14 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "ask": {
-                    "en": "Subdomain for SoapboxFE installation, i.e: soapbox.your-pleroma.instance.com",
-                    "fr": "Subdomain for SoapboxFE installation, i.e: soapbox.your-pleroma.instance.com"
-                }
+                "type": "domain"
             },
             {
                 "name": "backend",
                 "type": "domain",
                 "ask": {
-                    "en": "The root domain of pleroma instance installed",
-                    "fr": "The root domain of pleroma instance installed"
+                    "en": "The root domain of Pleroma instance installed",
+                    "fr": "Le domaine racine de l'instance pleroma installée"
                 }
             },
             {
