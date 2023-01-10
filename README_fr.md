@@ -18,7 +18,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 SoapboxFE is an alternative frontend for Pleroma.
 
 
-**Version incluse :** 1.3.0~ynh1
+**Version incluse :** 3.0.0~ynh1
 
 ## Captures d'écran
 
