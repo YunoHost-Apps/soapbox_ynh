@@ -46,7 +46,6 @@ ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=backend --value=$backend
 ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 
-
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
@@ -76,7 +75,6 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
-ynh_replace_string --match_string="example.com" --replace_string="$backend" --target_file="/etc/nginx/conf.d/$domain.d/$app.conf"
 
 #=================================================
 # GENERIC FINALIZATION
@@ -97,6 +95,7 @@ fi
 ynh_script_progression --message="Reloading NGINX web server..."
 
 ynh_systemd_action --service_name=nginx --action=reload
+
 #=================================================
 # END OF SCRIPT
 #=================================================
