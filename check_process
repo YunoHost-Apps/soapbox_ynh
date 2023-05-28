@@ -7,6 +7,7 @@
 		admin="john"
 		password="1Strong-Password"
 		port="666"
+		backend="domain.tld"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
