@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Soapbox for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+
 [![Install Soapbox with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -18,36 +19,11 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Soapbox is customizable open-source software that puts the power of social media in the hands of the people. Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**Shipped version:** 3.0.0~ynh1
+**Shipped version:** 3.2.0~ynh1
 
 ## Screenshots
 
 ![Screenshot of Soapbox](./doc/screenshots/screenshot.jpg)
-
-## Disclaimers / important information
-
-### Important points to read before installing
-
-- [Pleroma (YunoHost ver.)](https://github.com/YunoHost-Apps/pleroma_ynh) must be installed locally before you install SoapboxFE
-- SoapboxFE must be installed under a Pleroma domain (i.e soapboxfe.your-pleroma-instance-domain.net)
-- AdminFE under SoapboxFE returns 404
-
-Using screen in case of disconnects
-
-``` 
-sudo apt-get install screen
-screen
-sudo yunohost app install https://github.com/YunoHost-Apps/soapbox_ynh.git
-```
-Recover after disconnect:
-```
-screen -d
-screen -r
-```
-
-## :red_circle: Antifeatures
-
-- **Package not maintained**: This YunoHost package is not maintained and needs adoption.
 
 ## Documentation and resources
 
