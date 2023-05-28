@@ -32,7 +32,7 @@ ram.runtime = "50M"
 
     [install.backend]
     ask.en = "The root domain of Pleroma instance installed"
-    ask.fr = "Le domaine racine de l'instance pleroma installée"
+    ask.fr = "Le domaine racine de l'instance Pleroma installée"
     type = "domain"
 
     [install.init_main_permission]
