@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Soapbox for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+
 [![Install Soapbox with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -44,10 +45,6 @@ Recover after disconnect:
 screen -d
 screen -r
 ```
-
-## :red_circle: Antifeatures
-
-- **Package not maintained**: This YunoHost package is not maintained and needs adoption.
 
 ## Documentation and resources
 

@@ -5,24 +5,25 @@ It shall NOT be edited by hand.
 
 # Soapbox pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+
 [![Installer Soapbox avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Soapbox rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Soapbox rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Soapbox is customizable open-source software that puts the power of social media in the hands of the people. Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
 **Version incluse :** 3.0.0~ynh1
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Soapbox](./doc/screenshots/screenshot.jpg)
+![Capture d’écran de Soapbox](./doc/screenshots/screenshot.jpg)
 
 ## Avertissements / informations importantes
 
@@ -45,15 +46,11 @@ screen -d
 screen -r
 ```
 
-## :red_circle: Fonctions indésirables
-
-- **Package not maintained**: This YunoHost package is not maintained and needs adoption.
-
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://soapbox.pub/>
-* Documentation officielle de l'admin : <https://docs.soapbox.pub/>
-* Dépôt de code officiel de l'app : <https://gitlab.com/soapbox-pub/soapbox-fe>
+* Site officiel de l’app : <https://soapbox.pub/>
+* Documentation officielle de l’admin : <https://docs.soapbox.pub/>
+* Dépôt de code officiel de l’app : <https://gitlab.com/soapbox-pub/soapbox-fe>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_soapbox>
 * Signaler un bug : <https://github.com/YunoHost-Apps/soapbox_ynh/issues>
 
@@ -69,4 +66,4 @@ ou
 sudo yunohost app upgrade soapbox -u https://github.com/YunoHost-Apps/soapbox_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
