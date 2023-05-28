@@ -1,6 +1,0 @@
-SOURCE_URL=https://gitlab.com/soapbox-pub/soapbox/-/jobs/artifacts/v3.0.0/download?job=build-production
-SOURCE_SUM=ea62f2f9c27b391d156b1fe7c4e4384ac1b45c7f01af6b0e5337b9a8f18d8ac2
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
