@@ -6,7 +6,7 @@
         "en": "Alternative frontend for Pleroma",
         "fr": "Interface alternative pour Pleroma"
     },
-    "version": "3.0.0~ynh1",
+    "version": "3.2.0~ynh1",
     "url": "https://soapbox.pub/",
     "upstream": {
         "license": "AGPL-3.0",
@@ -19,7 +19,7 @@
         "name": ""
     },
     "requirements": {
-        "yunohost": ">= 11.0.9"
+        "yunohost": ">= 11.1.21"
     },
     "multi_instance": false,
     "services": [
