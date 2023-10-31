@@ -51,7 +51,7 @@ screen -r
 * Site officiel de l’app : <https://soapbox.pub/>
 * Documentation officielle de l’admin : <https://docs.soapbox.pub/>
 * Dépôt de code officiel de l’app : <https://gitlab.com/soapbox-pub/soapbox-fe>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_soapbox>
+* YunoHost Store: <https://apps.yunohost.org/app/soapbox>
 * Signaler un bug : <https://github.com/YunoHost-Apps/soapbox_ynh/issues>
 
 ## Informations pour les développeurs
