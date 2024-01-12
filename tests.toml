@@ -3,3 +3,14 @@
 test_format = 1.0
 
 [default]
+
+    preinstall = """
+    yunohost tools update apps
+    yunohost domain add pleroma.domain.tld
+    yunohost app install \
+        https://github.com/YunoHost-Apps/pleroma_ynh/tree/8cb4f01438463356916645cff38737cb59fde860 \
+        -a "domain=pleroma.domain.tld&is_public=yes&admin=package_checker&password=1SuperPassword&name=My_Pleroma&registration=false&cache=true&size=2g" \
+        --force
+    """
+
+    args.backend = "pleroma.domain.tld"
