@@ -1,0 +1,16 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/tests.v1.schema.json
+
+test_format = 1.0
+
+[default]
+
+    preinstall = """
+    yunohost tools update apps
+    yunohost domain add pleroma.domain.tld
+    yunohost app install \
+        https://github.com/YunoHost-Apps/pleroma_ynh/tree/56c0378606593498a0941b188969aa0fcefba87b \
+        -a "domain=pleroma.domain.tld&init_main_permission=visitors&admin=package_checker&password=1SuperPassword&name=My_Pleroma&registration=false&cache=true&size=2g" \
+        --force
+    """
+
+    args.backend = "pleroma.domain.tld"

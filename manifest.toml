@@ -1,0 +1,56 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "soapbox"
+name = "Soapbox"
+description.en = "Alternative frontend for Pleroma"
+description.fr = "Interface alternative pour Pleroma"
+
+version = "3.2.0~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "AGPL-3.0"
+website = "https://soapbox.pub/"
+admindoc = "https://docs.soapbox.pub/"
+code = "https://gitlab.com/soapbox-pub/soapbox-fe"
+cpe = "cpe:2.3:a:soapbox_project:soapbox"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = false
+ldap = "not_relevant"
+sso = "not_relevant"
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.backend]
+    ask.en = "The root domain of Pleroma instance installed"
+    ask.fr = "Le domaine racine de l'instance pleroma installée"
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.sources.main]
+    url = "https://gitlab.com/soapbox-pub/soapbox/-/jobs/artifacts/v3.2.0/download?job=build-production"
+    sha256 = "01d5ba24aec990828b67c5fe37d49378e1ea986354761717c82f63b103d36bda"
+    format = "zip"
+    # autoupdate.strategy = "latest_github_release"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
