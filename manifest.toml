@@ -7,7 +7,7 @@ name = "Soapbox"
 description.en = "Alternative frontend for Pleroma"
 description.fr = "Interface alternative pour Pleroma"
 
-version = "3.2.0~ynh1"
+version = "v3.2.0~ynh1"
 
 maintainers = []
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://gitlab.com/soapbox-pub/soapbox/-/jobs/artifacts/v3.2.0/download?job=build-production"
-    sha256 = "01d5ba24aec990828b67c5fe37d49378e1ea986354761717c82f63b103d36bda"
+    url = "https://gitlab.com/soapbox-pub/soapbox-fe/-/archive/v3.2.0/soapbox-fe-v3.2.0.tar.bz2"
+    sha256 = "f7640a4fb6bef5ee89eb8d7af5ce10b0b149dd6afc0ac6b284738f1629afc39a"
     format = "zip"
     autoupdate.strategy = "latest_gitlab_release"
 
