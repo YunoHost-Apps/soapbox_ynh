@@ -1,0 +1,2 @@
+Soapbox est un logiciel open source personnalisable qui met le pouvoir des médias sociaux entre les mains des gens.
+Riche en fonctionnalités et axé sur l’expérience utilisateur, Soapbox héberge déjà certaines des plus grandes plateformes sociales alternatives.
