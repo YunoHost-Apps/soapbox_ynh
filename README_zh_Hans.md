@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Soapbox
+# YunoHost 上的 Soapbox
 
 [![集成程度](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![工作状态](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
