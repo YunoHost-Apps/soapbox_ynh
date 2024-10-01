@@ -19,7 +19,7 @@ code = "https://gitlab.com/soapbox-pub/soapbox-fe"
 cpe = "cpe:2.3:a:soapbox_project:soapbox"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
