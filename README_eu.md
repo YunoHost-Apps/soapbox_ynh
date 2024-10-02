@@ -20,7 +20,7 @@ Soapbox is customizable open-source software that puts the power of social media
 Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**Paketatutako bertsioa:** 3.2.0~ynh2
+**Paketatutako bertsioa:** 3.2.0~ynh3
 
 ## Pantaila-argazkiak
 

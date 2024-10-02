@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Soapbox est un logiciel open source personnalisable qui met le pouvoir des médias sociaux entre les mains des gens.
 Riche en fonctionnalités et axé sur l’expérience utilisateur, Soapbox héberge déjà certaines des plus grandes plateformes sociales alternatives.
 
-**Version incluse :** 3.2.0~ynh2
+**Version incluse :** 3.2.0~ynh3
 
 ## Captures d’écran
 
