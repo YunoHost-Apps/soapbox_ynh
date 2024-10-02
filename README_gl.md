@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Soapbox para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![Instalar Soapbox con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 

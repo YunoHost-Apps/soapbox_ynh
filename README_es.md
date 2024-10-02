@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Soapbox para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![Instalar Soapbox con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
@@ -36,7 +36,7 @@ Feature-rich and hyper-focused on providing a user experience to rival Big Tech,
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/soapbox_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/soapbox_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
