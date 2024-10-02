@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Soapbox for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![Working status](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![Install Soapbox with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
@@ -20,7 +20,7 @@ Soapbox is customizable open-source software that puts the power of social media
 Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**Shipped version:** 3.2.0~ynh2
+**Shipped version:** 3.2.0~ynh3
 
 ## Screenshots
 

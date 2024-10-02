@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Soapbox para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![Instalar Soapbox con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
@@ -20,7 +20,7 @@ Soapbox is customizable open-source software that puts the power of social media
 Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**Versión actual:** 3.2.0~ynh2
+**Versión actual:** 3.2.0~ynh3
 
 ## Capturas
 
@@ -36,7 +36,7 @@ Feature-rich and hyper-focused on providing a user experience to rival Big Tech,
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/soapbox_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/soapbox_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

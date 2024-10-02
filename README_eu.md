@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Soapbox YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![Instalatu Soapbox YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
@@ -20,7 +20,7 @@ Soapbox is customizable open-source software that puts the power of social media
 Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**Paketatutako bertsioa:** 3.2.0~ynh2
+**Paketatutako bertsioa:** 3.2.0~ynh3
 
 ## Pantaila-argazkiak
 

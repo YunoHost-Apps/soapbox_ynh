@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Soapbox
 
-[![集成程度](https://dash.yunohost.org/integration/soapbox.svg)](https://dash.yunohost.org/appci/app/soapbox) ![工作状态](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/soapbox.svg)](https://ci-apps.yunohost.org/ci/apps/soapbox/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/soapbox.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/soapbox.maintain.svg)
 
 [![使用 YunoHost 安装 Soapbox](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=soapbox)
 
@@ -20,7 +20,7 @@ Soapbox is customizable open-source software that puts the power of social media
 Feature-rich and hyper-focused on providing a user experience to rival Big Tech, Soapbox is already home to some of the biggest alternative social platforms.
 
 
-**分发版本：** 3.2.0~ynh2
+**分发版本：** 3.2.0~ynh3
 
 ## 截图
 
